@@ -1,0 +1,195 @@
+/*RESET.CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*END RESET.CSS*/
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.wrapper{
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top_header{
+	display: flex;
+	width: 96%;
+	max-width: 96%;	
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 33px;
+}
+
+.top_header h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: #505050;
+}
+
+.top_header a{
+	display: flex;
+	text-decoration: none;
+	color: #505050;
+	font-size: 14px;
+	margin-left: 5%;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.top_header .burger{
+	width: 24px;
+	height: 24px;
+	margin-left: 77%;
+}
+
+.top_header .burger i{
+	display: block;
+	width: 22px;
+	height: 2px;
+	margin-top: 5px;
+	background-color: #292929;
+	box-shadow: none;
+}
+
+.container1{
+	width: 96%;
+	margin: 0 auto;
+}
+
+.top_header .menu{
+	display: none;
+}
+
+.show{
+	display: block;
+}
+
+.container1 span{
+	display: block;
+	transform: rotate(270deg);
+	font-weight: 700;
+	font-size: 14px;
+	color: #505050;
+	position: absolute;
+	margin-top: 20%;
+	margin-left: -3%;
+}
+
+.container1 span .images img{
+	display: block;
+	transform: rotate(90deg);
+}
+
+.container1 .bg{
+	width: 72%;
+	height: 780px;
+	background-color: #f4f4f4;
+	float: right;
+}
+
+.container1 .bg img{
+	display: block;
+	margin-top: 10%;
+	margin-left: 27%;
+	background-size: contain;
+}
+
+.container1 .thumbnail h1{
+	font-weight: 700;
+	font-size: 62px;
+	color: #505050;
+}
+
+.container1 .thumbnail i{
+	flex-direction: column;
+	justify-content: center;
+	background-color: #cacaca;
+	width: 25px;
+	height: 1px;
+	margin-bottom: 1%;
+	margin-left: 1px;
+	margin-left: 8px;
+}
+
+.container1 .thumbnail .home i, .container1 .thumbnail .home h2{
+	display: inline-block;
+	justify-content: center;
+}
+
+.container1 .thumbnail .home h2{
+	font-size: 14px;
+	color: #505050;
+}
+
+.container1 .thumbnail{
+	position: absolute;
+	margin-top: 22%;
+	margin-left: 11%;
+}
+
+.container1 .thumbnail .btn{
+	margin-top: 11%;
+}
+
+.container1 .thumbnail .btn a{
+	text-decoration: none;
+	color: #505050;
+	background: linear-gradient(to right, #ffe400 65%, #fff 35%);
+	font-weight: 700;
+	font-size: 14px;
+	padding: 19px 40px;
+	transition: 0.2s;
+}
+
+.container1 .thumbnail .btn a:hover{
+	background: linear-gradient(to right, #ffe400 100%, #fff 0%);
+}
