@@ -59,6 +59,12 @@ body{
 	margin: 0 auto;
 }
 
+.center{
+	max-width: 1110px;
+	width: 100%;
+	margin: 0 auto;
+}
+
 .top_header{
 	display: flex;
 	width: 96%;
@@ -89,6 +95,7 @@ body{
 	width: 24px;
 	height: 24px;
 	margin-left: 77%;
+	cursor: pointer;
 }
 
 .top_header .burger i{
@@ -103,6 +110,7 @@ body{
 .container1{
 	width: 96%;
 	margin: 0 auto;
+	height: 100vh;
 }
 
 .top_header .menu{
@@ -113,7 +121,8 @@ body{
 	display: block;
 }
 
-.container1 span{
+.container1 span a{
+	text-decoration: none;
 	display: block;
 	transform: rotate(270deg);
 	font-weight: 700;
@@ -126,7 +135,15 @@ body{
 
 .container1 span .images img{
 	display: block;
-	transform: rotate(90deg);
+}
+
+.container1 span .images{
+	position: absolute;
+	margin-top: 67vh;
+}
+
+.container1 span .images img{
+	margin-top: 150%;
 }
 
 .container1 .bg{
@@ -178,6 +195,7 @@ body{
 
 .container1 .thumbnail .btn{
 	margin-top: 11%;
+	transition: all 0.2s ease;
 }
 
 .container1 .thumbnail .btn a{
@@ -187,9 +205,311 @@ body{
 	font-weight: 700;
 	font-size: 14px;
 	padding: 19px 40px;
+	transition: all 0.2s ease;
+}
+
+.container1 .thumbnail .btn:hover a{
+	background: #ffe400;
+	transition-duration: 0.2s;
+}
+
+.container2{
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.container2 .top{
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.container2 .top h2{
+	font-weight: 700;
+	font-size: 30px;
+	color: #505050;
+}
+
+.container2 .top p{
+	margin-top: 30px;
+	font-size: 16px;
+	color: #505050;
+}
+
+.container2 .table{
+	display: grid;
+	grid-template-columns: 1fr 27% 1fr 27% 1fr 27%;
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 2%;
+	grid-row-gap: 65px;
+	margin-bottom: 110px;
+}
+
+.container2 .table img{
+	align-self: center;
+	margin: 0 auto;
+}
+
+.container2 .table h3{
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 15px;
+	color: #505050;
+}
+
+.container2 .table p{
+	font-size: 14px;
+	line-height: 1.8;
+	color: #505050;
+}
+
+.container3{
+	width: 100%;
+}
+
+.container3 .menu{
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.container3 .menu ul li{
+	display: inline-block;
+	cursor: pointer;
+	font-weight: 700;
+	color: #505050;
+	font-size: 14px;
+	padding: 15px 7px;
 	transition: 0.2s;
 }
 
-.container1 .thumbnail .btn a:hover{
-	background: linear-gradient(to right, #ffe400 100%, #fff 0%);
+.container3 .menu ul li a{
+	text-decoration: none;
+	color: #505050;
+	transition: 0.2s;
+}
+
+.container3 .menu ul li:nth-child(3){
+	color: #ffe400;
+	border-bottom: solid #ffe400;
+}
+
+.container3 .menu ul li:hover{
+	color: #ffe400;
+	border-bottom: solid #ffe400;
+}
+
+.container3 .menu ul li:hover a{
+	color: #ffe400;
+}
+
+.container3 .gallery{
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 30px;
+	grid-column-gap: 30px;
+	margin-bottom: 80px;
+}
+
+.container3 .btn{
+	text-align: center;
+}
+
+.container3 .btn a{
+	background: linear-gradient(to right, #ffe400 52%, #fff 48%);
+	font-size: 14px;
+	font-weight: 700;
+	color: #505050;
+	text-decoration: none;
+	padding: 17px 35px;
+	transition: all 0.2s ease;
+}
+
+.container3 .btn:hover a{
+	background: #ffe400;
+}
+
+.container4{
+	margin-left: 15%;
+	margin-top: 140px;
+	width: 60%;
+	display: grid;
+	grid-template-columns: 14% 13% 13% 75%;
+	grid-template-rows: repeat(2, auto);
+	grid-column-gap: 76px;
+	margin: 0 right;
+	margin-bottom: 141px;
+}
+
+.container4 .text{
+	grid-column: 1/4;
+	grid-row: 1/2;
+}
+
+.container4 i{
+	margin-bottom: 5px;
+	margin-left: 1px;
+	margin-right: 7px;
+	display: inline-block;
+	width: 25px;
+	height: 1px;
+	background-color: #505050;
+}
+
+.container4 h3{
+	margin-top: 62px;
+	font-size: 14px;
+	color: #505050;
+}
+
+.container4 h2{
+	margin-top: 31px;
+	font-size: 30px;
+	font-weight: 700;
+	color: #505050;
+}
+
+.container4 p{
+	margin-top: 30px;
+	font-size: 16px;
+	color: #505050;
+	line-height: 1.8;
+	letter-spacing: -1px;
+}
+
+.container4 .picture{
+	background-image: url(../img/bkg5.png);
+	background-repeat: no-repeat;
+	grid-row: 1/3;
+	grid-column: 4/5;
+	max-width: 100%;
+	background-size: contain;
+}
+
+.container4 .bar1 h2, .container4 .bar2 h2, .container4 .bar3 h2{
+	display: block;
+	margin-top: 58px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #505050;
+}
+
+.container4 .bar1 span, .container4 .bar2 span, .container4 .bar3 span{
+	background: linear-gradient(to right, #ffe400 70%, #fff 30%);
+	text-align: center;
+	padding: 8px 46px;
+	font-weight: 700;
+	font-size: 36px;
+	display: block;
+	margin-top: 30px;
+	color: #505050;
+}
+
+.container5 .top_text{
+	text-align: center;
+}
+
+.container5 .top_text h2{
+	font-size: 30px;
+	font-weight: 700;
+	color: #505050;
+}
+
+.container5 .top_text p{
+	margin-top: 30px;
+	margin-bottom: 47px;
+	font-size: 16px;
+	color: #505050;
+}
+
+.contacts .images{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.contacts .names span{
+	white-space: nowrap;
+	display: block;
+	font-size: 16px;
+	color: #505050;
+	margin-right: 5%;
+	margin-bottom: 11px;
+}
+
+.contacts .names p{
+	font-size: 12px;
+	color: #505050;
+}
+
+.contacts .names .number{
+	font-size: 12px;
+	color: #505050;
+	margin-top: 24px;
+	margin-bottom: 120px;
+}
+
+.contacts .names{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 9%;
+}
+
+.container6{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.container6 .input_block{
+	display: grid;
+	width: 100%;
+	height: 157px;
+	background-color: #f4f4f4;
+	grid-template-rows: 1fr;
+	grid-template-columns: 48% 30% 14%;  
+	margin: 0 auto;
+}
+
+.container6 .input_block .info{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+.container6 .input_block h2{
+	color: #505050;
+	font-size: 28px;
+}
+
+.container6 .input_block p{
+	color: #505050;
+	font-size: 14px;
+}
+
+.container6 .input_block .btn{
+	text-transform: uppercase;
+	color: #505050;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffe400;
+	border: none;
+	border-radius: 0px;
+	font-size: 14px;
+	font-weight: 700;
+	margin: 55px 0;
+	margin-right: 10px;
+}
+
+.container6 .input_block .mail{
+	color: #505050;
+	align-self: center;
+	padding: 22px 0;
+}
+
+.copyright{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	padding-bottom: 50px;
+}
+
+.container6 .input_block .input_form .mail{
 }
