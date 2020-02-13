@@ -8,20 +8,24 @@
 	<link rel="stylesheet" href="styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/animate.css">
 </head>
 <body>
 	<div class="wrapper">
 		<section class="container1">
-			<div class="top_header">
+			<div class="top_header" id="top_header">
 			<h1>CREATIVE</h1>
 			<a href="#">CONTACT</a>
+			<div class="menu" id="menu">
+				<h2><a href="#top_header">HOME</a></h2>
+				<h2><a href="#container2">OUR SERVICES</a></h2>
+				<h2><a href="#container3">GALLERY</a></h2>
+				<h2><a href="#container5">OUR TEAM</a></h2>
+			</div>
 			<div class="burger" id="burger">
 				<i></i>
 				<i></i>
 				<i></i>
-			</div>
-			<div class="menu" id="menu">
-				HELL
 			</div>
 		</div>
 			<span>
@@ -33,7 +37,7 @@
 				</div>
 			</span>
 
-			<div class="thumbnail">
+			<div class="thumbnail wow fadeInLeftBig">
 				<div class="home">
 					<i></i><h2>HOME</h2>
 				</div>
@@ -44,9 +48,9 @@
 				</div>
 			</div>
 			<div class="bg">
-				<img src="img/iMac 27' 2012 3.png" alt=""></div>
+				<img class="wow fadeInUpBig" src="img/iMac 27' 2012 3.png" alt=""></div>
 		</section>
-		<section class="container2">
+		<section class="container2" id="container2">
 			<div class="center">
 				<div class="top">
 					<h2>Our Services</h2>
@@ -98,7 +102,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="container3">
+		<section class="container3" id="container3">
 			<div class="center">
 				<div class="menu">
 					<ul>
@@ -140,7 +144,7 @@
 					<span>98%</span>
 				</div>
 		</section>
-		<section class="container5">
+		<section class="container5" id="container5">
 			<div class="center">
 				<div class="top_text">
 					<h2>Our Team</h2>
@@ -148,31 +152,37 @@
 				</div>
 				<div class="contacts">
 					<div class="images">
+						<div class="name1 wow fadeInUp ">
 						<img src="img/replace image3111.png" alt="">
-						<img src="img/replace image31111.png" alt="">
-						<img src="img/replace image311112.png" alt="">
-						<img src="img/replace image311111.png" alt="">
-					</div>
-					<div class="names">
-						<div class="name1">
+						<div class="nilla">
 							<span>NILLA DOE</span>
 							<p>CREATIVE DESIGNER</p>
 							<p class="number">+4 72 398455 88</p>
+							</div>
 						</div>
-						<div class="name2">
+						<div class="name2 wow fadeInUp"data-wow-delay="0.5s">
+						<img src="img/replace image31111.png" alt="">
+						<div class="marta">
 							<span>MARTA SMITH</span>
 							<p>FINANCE SUPPORT</p>
 							<p class="number">+4 72 398455 88</p>
+							</div>
 						</div>
-						<div class="name3">
+						<div class="name3 wow fadeInUp"data-wow-delay="1s">
+						<img src="img/replace image311112.png" alt="">
+						<div class="michael">
 							<span>MICHAEL DOE</span>
 							<p>OWNER CONSULTING</p>
 							<p class="number">+4 72 398455 88</p>
+							</div>
 						</div>
-						<div class="name4">
+						<div class="name4 wow fadeInUp"data-wow-delay="1.5s">
+						<img src="img/replace image311111.png" alt="">
+						<div class="tisa">
 							<span>TISA DOE</span>
 							<p>FINANCE SUPPORT</p>
 							<p class="number">+4 72 398455 88</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -198,5 +208,10 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="js/all.js"></script>
+	<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
