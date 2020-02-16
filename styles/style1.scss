@@ -1,0 +1,183 @@
+$bold: 700;
+$color: #505050;
+
+.top_header{
+    h1{
+        font: $bold $color;
+    }
+}
+
+.top_header{
+    .show{
+        h2{
+            a{
+                font: $bold $color;
+            }
+        }
+    }
+}
+
+.container1{
+    span{
+        a{
+            font: $bold $color;
+        }
+    }
+}
+
+.container1{
+    .thumbnail{
+        h1{
+            font: $bold $color;
+        }
+    }
+}
+
+.container1{
+    .thumbnail{
+        .home{
+            h2{
+                font: $color;
+            }
+        }
+    }
+}
+
+.container1{
+    .thumbnail{
+        .btn{
+            a{
+                font: $bold $color;
+            }
+        }
+    }
+}
+
+.container2{
+    .top{
+        h2{
+            font: $color $bold;
+        }
+    }
+}
+
+.container2{
+    .top{
+        p{
+            font: $color;
+        }
+    }
+}
+
+.container2{
+    .table{
+        h3{
+            font: $bold $color;
+        }
+    }
+}
+
+.container2{
+    .table{
+        p{
+            font: $color;
+        }
+    }
+}
+
+.container3{
+    .menu{
+        .btn{
+            font: $color $bold;
+        }
+    }
+}
+
+.container3{
+    .gallery{
+        .hover{
+            span{
+                font: $bold;
+            }
+        }
+    }
+}
+
+.container3{
+    .btn{
+        a{
+            font: $bold $color;
+        }
+    }
+}
+
+.container4{
+    h2{
+        font: $bold $color;
+    }
+}
+
+.container4{
+    .bar1{
+        h2{
+            font: $bold $color;
+        }
+    }
+}
+
+.container4{
+    .bar2{
+        h2{
+            font: $bold $color;
+        }
+    }
+}
+
+.container4{
+    .bar3{
+        h2{
+            font: $bold $color;
+        }
+    }
+}
+
+.container4{
+    .bar1{
+        span{
+            font: $bold $color;
+        }
+    }
+}
+
+.container4{
+    .bar2{
+        span{
+            font: $bold $color;
+        }
+    }
+}
+
+.container4{
+    .bar3{
+        span{
+            font: $bold $color;
+        }
+    }
+}
+
+.container5{
+    .top_text{
+        h2{
+            font: $bold $color;
+        }
+    }
+}
+
+.container6{
+    .input_block{
+        .btn{
+            font: $bold $color;
+        }
+    }
+}
+
