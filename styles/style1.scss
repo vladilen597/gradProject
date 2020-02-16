@@ -3,7 +3,8 @@ $color: #505050;
 
 .top_header{
     h1{
-        font: $bold $color;
+        font-weight: $bold;
+        color: $color;
     }
 }
 
@@ -11,7 +12,8 @@ $color: #505050;
     .show{
         h2{
             a{
-                font: $bold $color;
+                font-weight: $bold;
+                color: $color;
             }
         }
     }
@@ -20,7 +22,8 @@ $color: #505050;
 .container1{
     span{
         a{
-            font: $bold $color;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
@@ -28,7 +31,8 @@ $color: #505050;
 .container1{
     .thumbnail{
         h1{
-            font: $bold $color;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
@@ -37,7 +41,7 @@ $color: #505050;
     .thumbnail{
         .home{
             h2{
-                font: $color;
+                color: $color;
             }
         }
     }
@@ -47,7 +51,8 @@ $color: #505050;
     .thumbnail{
         .btn{
             a{
-                font: $bold $color;
+                font-weight: $bold;
+                color: $color;
             }
         }
     }
@@ -56,7 +61,8 @@ $color: #505050;
 .container2{
     .top{
         h2{
-            font: $color $bold;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
@@ -64,7 +70,7 @@ $color: #505050;
 .container2{
     .top{
         p{
-            font: $color;
+            color: $color;
         }
     }
 }
@@ -72,7 +78,8 @@ $color: #505050;
 .container2{
     .table{
         h3{
-            font: $bold $color;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
@@ -80,7 +87,7 @@ $color: #505050;
 .container2{
     .table{
         p{
-            font: $color;
+            color: $color;
         }
     }
 }
@@ -88,7 +95,8 @@ $color: #505050;
 .container3{
     .menu{
         .btn{
-            font: $color $bold;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
@@ -97,7 +105,8 @@ $color: #505050;
     .gallery{
         .hover{
             span{
-                font: $bold;
+                font-weight: $bold;
+                color: $color;
             }
         }
     }
@@ -106,29 +115,32 @@ $color: #505050;
 .container3{
     .btn{
         a{
-            font: $bold $color;
+            color: $color;
         }
     }
 }
 
 .container4{
     h2{
-        font: $bold $color;
+        font-weight: $bold;
+        color: $color;
     }
 }
 
 .container4{
     .bar1{
         h2{
-            font: $bold $color;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
 
 .container4{
     .bar2{
-        h2{
-            font: $bold $color;
+        h2{ 
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
@@ -136,7 +148,8 @@ $color: #505050;
 .container4{
     .bar3{
         h2{
-            font: $bold $color;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
@@ -144,7 +157,8 @@ $color: #505050;
 .container4{
     .bar1{
         span{
-            font: $bold $color;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
@@ -152,7 +166,8 @@ $color: #505050;
 .container4{
     .bar2{
         span{
-            font: $bold $color;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
@@ -160,7 +175,8 @@ $color: #505050;
 .container4{
     .bar3{
         span{
-            font: $bold $color;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
@@ -168,7 +184,8 @@ $color: #505050;
 .container5{
     .top_text{
         h2{
-            font: $bold $color;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
@@ -176,7 +193,8 @@ $color: #505050;
 .container6{
     .input_block{
         .btn{
-            font: $bold $color;
+            font-weight: $bold;
+            color: $color;
         }
     }
 }
